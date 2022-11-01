@@ -1,0 +1,42 @@
+<!-- 
+    Create two boxes : 1st for taking password and another for retyping password
+    If these two match, then enable the button
+    If they do not match, keep the button disabled
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p>If you enter same passwords, button will be enabled. </p>
+        <label for="user-inp1">Enter your password : </label>
+        <input style="border:2px solid green; border-radius: 2rem;" type="password" id="user-inp1" />
+    </div>
+
+    <div>
+        <label for="user-inp2">Enter your password again : </label>
+        <!-- Hey input box, when someone clicks you, fire this function -->
+        <input type="password" id="user-inp2" onkeyup="verificationOfPasswords()" />
+    </div>
+
+    <div>
+        <button id="verify"> Verify if both the passwords match</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

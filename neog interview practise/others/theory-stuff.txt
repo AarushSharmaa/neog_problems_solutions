@@ -1,0 +1,69 @@
+1. Readline Sync () - readlineSync() is a package. In programming, you can use code written by others via this system.
+
+2. Function Parameters - Variables that are defined when a function is declared 
+
+3. Function Arguments - Values passed while calling a function
+
+4. One thing to notice here is that console is an object on which log() is a property. And yes, functions too can be a property of object.
+another fact, when functions are properties of an object, they are called methods in programming.
+
+5. callback function - callback function is one in which we call a function using a function.
+
+6. Difference between == & === 
+
+== converts the operants into same data type & then checks if they are same or not
+=== does not do any type of conversion, it simply checks if the two values are same or not
+
+
+7. Object.Key() & Object.values
+
+Keep in mind Key & Value, basically what object.key does is that it returns the key value of all the elements in the object in a form of a array. Similarly the same for values.
+
+8. HTTP Status Codes 
+1xx : Informational - It means that the request has been received & the process is continuing
+2xx : Success - It means that the action was successful, received, understood & accepted
+3xx : Redirection - It means further action must be taken in order to complete the request
+4xx : Client Error - It means the request contains incorrect syntax or cannot be fulfilled
+5xx : Server Error - It means the server failed to fulfill an apparently valid request
+
+Common Status Codes
+200 - OK - the page is successfully loaded
+301 - The URL of the requested resource has been changed permanently. The new URL is given in the response.
+302 - This response code means that the URI of requested resource has been changed temporarily. Further changes in the URI might be made in the future. 
+Therefore, this same URI should be used by the client in future requests.
+401 - Unauthorized - requires authorization to further access the contents
+403 - Forbidden - You are authorized but do not have the access rights for the content
+410 - This response is sent when the requested content has been permanently deleted from server, with no forwarding address. 
+500 - Internal Server Error - The server has encountered a situation it does not know how to handle.
+503 - The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded.
+
+9. A semantic element clearly describes its meaning to both the browser and the developer. Eg Nav, header, footer, form,table,etc. Non-semantic - Div, span
+
+10. Imperative = some function I wrote, Declarative = call some function someone else wrote
+
+11. Caching - Web Cache or HTTP Cache allows you to store a copy of a resource and serve it back when requested.
+Serving the item from the cache, instead of re-downloading it from the origin server eases the load on the server, improves performance, and reduces the bandwidth usage on the server.
+
+Cache can be present at browser ( pvt-specific user ), proxy server ( ISP or organization ), reverse proxy ( close to our server, setup by server administrators )
+max-age = time for which the cache will be stored
+etag header is the unique identifier associated to the resource. Client uses this etag to make a request to the server to check if the content has been changed
+
+12. var - let - const - let & const were introduced in ES2016 & before that var was used for variables. Var has a scope within a function, same with let & const. Var can be used outside
+of if & for blocks but let & const cannot be used. var & let can be edited but const value is not changeable
+
+13. DOM - Document object model.
+The DOM is the way Javascript sees its containing pages' data. It is an object that includes how the HTML/XHTML/XML is formatted, as well as the browser state.
+
+A DOM element is something like a DIV, HTML, BODY element on a page. You can add classes to all of these using CSS, or interact with them using JS.
+
+14. API 
+
+An API is the interface through which you access someone elses code or through which someone else's code accesses yours. It is a 
+connection between computers or between computer programs.
+
+15. React is declarative language, whereas Javascript is imperative.
+
+16. React is a Javascript library, not a framework.
+
+17. 
+

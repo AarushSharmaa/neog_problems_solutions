@@ -1,0 +1,34 @@
+<!-- 
+
+Here is an API: https://otpgenerator.ishanjirety.repl.co/get-otp?name=
+You will enter a name as input from your app and send this API a request with the name along with it (this will be the final URL :
+https://otpgenerator.ishanjirety.repl.co/get-otp?name=Nameentered 
+on button click. In the response, you will get an OTP which should be shown on the screen
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>First enter your name, then click on the button to call the API and receive OTP.</p>
+
+    <label for="user-inp">Enter your name : </label>
+    <input type="text" id="user-inp" />
+
+    <button id="call">Get OTP </button>
+
+
+    <div id="output"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

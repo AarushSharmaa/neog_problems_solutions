@@ -1,0 +1,41 @@
+<!--
+Input a single-digit number and check whether the number is an Automorphic number or not. Render output on the page.
+An automorphic number is a number whose square "ends" in the same digits as the number itself.
+For example,
+5**2 = 25, here 25 ends with ‘5’. Display :"5 is an Automorphic Number" on the screen
+6**2 = 36, here 36 ends with ‘6’
+So 5 and 6 are automorphic numbers
+
+7 isn't an automorphic number because 7**2=49.Display :"7 is not an Automorphic Number" on the screen
+
+Follow-up: If the square of a number has more than 3 digits, then how you can solve the same question
+Answer : will extend my core logic and instead of just checking the last digit, I will check last (x) digits of square
+// where x will be the lenght of input
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Check if the input number if an automorphic number or not</p>
+    <label for="user-inp">Enter a single-digit number : </label>
+    <input type="number" id="user-inp" min="0" max="9" />
+
+    <div>
+        <button id="check">Check</button>
+    </div>
+
+    <div id="output"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
